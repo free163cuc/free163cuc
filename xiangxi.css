@@ -1,0 +1,20 @@
+.small-line-height {
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .normal-line-height {
+    line-height: 1.6;
+  }
+  .head{
+    background: linear-gradient(to top, #D0E6FD, #369BFF);
+  }
+
+  .back {
+    color: #333;
+    text-decoration: none;
+  }
+  .main-content {
+  background-color: #E5EFFF;
+  padding: 20px;
+}

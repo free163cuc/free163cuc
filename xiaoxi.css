@@ -1,0 +1,62 @@
+.back {
+  color: #333;
+  text-decoration: none;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.header-bar {
+  background: linear-gradient(to top, #D0E6FD, #369BFF);
+}
+
+.btn-outline-success {
+  border-color: #0081FF;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+}
+
+.container {
+  background-color: #E5EFFF;
+}
+
+.card {
+  background: linear-gradient(to top,#FFFFFF,#DBF3FF);
+  box-shadow: 0 8px 10px;
+  border: none;
+}
+
+.nav-link {
+  background-color: #DBF3FF !important;
+  color: black !important;
+  border-radius: 6px;
+  margin-right: 6px;
+}
+
+.nav-link.active {
+  background-color: #E5EFFF !important;
+  color: black !important;
+}
+
+.list-group-item {
+  background: linear-gradient(to bottom, #DBF3FF, #ffffff);
+  border: none;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+
+.list-group-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px;
+  transition: all 0.3s ease;
+}
+
+.rounded-circle {
+  border: 2px solid #DBF3FF;
+}

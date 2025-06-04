@@ -1,0 +1,48 @@
+/* 顶部标题栏渐变背景 */
+.header-bar {
+  background: linear-gradient(to top, #D0E6FD, #369BFF); /* 题头渐变 */
+}
+
+.table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.table th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+thead tr th {
+  background-color:#DBF3FF;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  padding: 0.5rem;
+}
+
+.cell-number {
+  position: relative;
+  height: 100%;
+}
+
+.cell-number::before {
+  content: attr(data-num);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+table {
+  table-layout: fixed;
+}
+
+.back {
+  color: #333;
+  text-decoration: none;
+}

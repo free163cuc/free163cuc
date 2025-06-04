@@ -1,0 +1,50 @@
+.a {
+  color: inherit;
+}
+  .feature-item {
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #3C9EFF;
+    font-family: 'Microsoft YaHei', sans-serif;
+    background: linear-gradient(to top, #FFFFFF, #DBF3FF);
+    box-shadow: 0 8px 10px;
+    border: none;
+  }
+
+  .feature-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(10px);
+  }
+
+  .basic-info {
+    background: linear-gradient(to top, #FFFFFF, #DBF3FF);
+    box-shadow: 0 8px 10px;
+    border: none;
+  }
+
+  .basic-info:hover {
+    box-shadow: 0 12px 15px;
+  }
+
+  .small-line-height {
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+
+  .head {
+    background: linear-gradient(to top, #D0E6FD, #369BFF);
+  }
+
+.nav-link {
+  background-color: #DBF3FF !important;
+  color: black !important;
+  border-radius: 6px;
+  margin-right: 6px;
+}
+
+.nav-link.active {
+  background-color: #E5EFFF !important;
+  color: black !important;
+}

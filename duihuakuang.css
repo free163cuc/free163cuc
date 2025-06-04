@@ -1,0 +1,68 @@
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.chat-left {
+  background-color: #f0f0f0;
+  border-top-left-radius: 0.2rem;
+}
+
+.chat-right {
+  background-color: #007bff;
+  color: white;
+  border-top-right-radius: 0.2rem;
+  margin-left: auto;
+}
+
+.custom-hover:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  border-top: none;
+  padding: 1rem;
+}
+
+.header-bar {
+  background: linear-gradient(to top, #D0E6FD, #369BFF);
+}
+
+.btn-outline-success {
+  border-color: #0081FF;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+}
+
+.back {
+  color: #333;
+  text-decoration: none;
+}

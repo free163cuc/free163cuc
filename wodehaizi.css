@@ -1,0 +1,12 @@
+.back {
+  text-decoration: none;
+  color: inherit;
+}
+.header-bar {
+background: linear-gradient(to top, #D0E6FD, #369BFF);
+}
+.card {
+background: linear-gradient(to top,#FFFFFF,#DBF3FF);
+box-shadow: 0 8px 10px;
+border: none;
+}

@@ -1,0 +1,44 @@
+.header-bar {
+  background: linear-gradient(to top, #D0E6FD, #369BFF);
+}
+
+.btn-outline-success {
+  border-color: #0081FF;
+}
+
+.btn-outline-success:hover {
+  background-color: white;
+}
+
+.back {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #E5EFFF;
+}
+
+.card {
+  background: linear-gradient(to top,#FFFFFF,#DBF3FF);
+  box-shadow: 0 8px 10px;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #0081FF;
+}

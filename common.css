@@ -1,0 +1,206 @@
+
+body {
+  font-family: 'Noto Sans SC', 'Source Han Sans SC','PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: #333333;
+  background-color: #F8FAFF;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+.header-bar {
+  background: linear-gradient(to top, #D0E6FD, #369BFF);
+  box-shadow: 0 2px 10px;
+}
+
+.nav-tabs .nav-link {
+  color: #333333;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 8px 8px 0 0;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #DBF3FF;
+  color: #3C9EFF;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover:not(.active) {
+  background-color:#DBF3FF;
+}
+
+
+.card {
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to top, #FFFFFF, #DBF3FF);
+  box-shadow: 0 8px 15px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px;
+}
+
+.card-title {
+  color: #2C3E50;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  color: #7F8C9A;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+.card-body span {
+  color: #95A5A6;
+  font-size: 0.85rem;
+}
+
+
+.card-body .d-flex {
+  margin-bottom: 0.5rem;
+}
+
+
+.card-body .course-price {
+  margin-bottom: 0.5rem;
+}
+
+.card-body .course-price span:first-child {
+  color: #3C9EFF;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.card-body .course-price span:last-child {
+  color: #FF9241;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #3C9EFF;
+  border-color: #3C9EFF;
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2b8ae9;
+  border-color: #2b8ae9;
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  color: #3C9EFF;
+  border-color: #3C9EFF;
+  border-radius: 8px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #3C9EFF;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  padding: 10px 15px;
+}
+
+.form-control:focus {
+  border-color: #3C9EFF;
+  box-shadow: 0 0 0 0.2rem;
+}
+
+.list-group-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 8px !important;
+  background: linear-gradient(to bottom, #FFFFFF, #DBF3FF);
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px;
+}
+
+.divider {
+  height: 10px;
+  background-color: #E5EFFF;
+  margin: 20px 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 3px 10px;
+}
+
+.table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 15px;
+}
+
+.table thead th {
+  background-color: #DBF3FF;
+  border-bottom: none;
+  color: #3C9EFF;
+  font-weight: 500;
+}
+
+.table td, .table th {
+  padding: 15px;
+  border-color: #E0E0E0;
+}
+
+.search-box {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 2px solid #DBF3FF;
+  transition: all 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #3C9EFF;
+  box-shadow: 0 0 0 0.2rem;
+}
+
+.back {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.back:hover {
+  color: #3C9EFF;
+  text-decoration: none;
+}
+
+.feature-item {
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  background-color: #DBF3FF;
+  transform: translateX(10px);
+}
