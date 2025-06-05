@@ -1,6 +1,5 @@
-/* 顶部标题栏渐变背景 */
 .header-bar {
-  background: linear-gradient(to top, #D0E6FD, #369BFF); /* 题头渐变 */
+  background: linear-gradient(to top, #D0E6FD, #369BFF); 
 }
 
 .table {
