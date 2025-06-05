@@ -11,7 +11,6 @@ input, button, select, textarea {
 
 .header-bar {
   background: linear-gradient(to top, #D0E6FD, #369BFF);
-  box-shadow: 0 2px 10px;
 }
 
 .nav-tabs .nav-link {
@@ -38,13 +37,11 @@ input, button, select, textarea {
   border: none;
   border-radius: 12px;
   background: linear-gradient(to top, #FFFFFF, #DBF3FF);
-  box-shadow: 0 8px 15px;
   transition: all 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 20px;
 }
 
 .card-title {
@@ -124,7 +121,6 @@ input, button, select, textarea {
 
 .form-control:focus {
   border-color: #3C9EFF;
-  box-shadow: 0 0 0 0.2rem;
 }
 
 .list-group-item {
@@ -137,7 +133,6 @@ input, button, select, textarea {
 
 .list-group-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 15px;
 }
 
 .divider {
@@ -149,14 +144,12 @@ input, button, select, textarea {
 .avatar {
   border-radius: 50%;
   border: 3px solid white;
-  box-shadow: 0 3px 10px;
 }
 
 .table {
   background: white;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 15px;
 }
 
 .table thead th {
@@ -180,7 +173,6 @@ input, button, select, textarea {
 
 .search-box:focus {
   border-color: #3C9EFF;
-  box-shadow: 0 0 0 0.2rem;
 }
 
 .back {
