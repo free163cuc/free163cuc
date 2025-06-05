@@ -20,12 +20,7 @@
 
   .basic-info {
     background: linear-gradient(to top, #FFFFFF, #DBF3FF);
-    box-shadow: 0 8px 10px;
     border: none;
-  }
-
-  .basic-info:hover {
-    box-shadow: 0 12px 15px;
   }
 
   .small-line-height {
