@@ -30,7 +30,6 @@
 
 .form-control:focus {
   border-color: #80bdff;
-  box-shadow: 0 0 0 0.2rem;
 }
 
 .card {
