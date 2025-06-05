@@ -1,4 +1,4 @@
-<img width="734" alt="image" src="https://github.com/user-attachments/assets/37f926ad-9e72-48c0-a368-6024c2f973ca" />## Hi there 👋
+## Hi there 👋
 
 <!--
 **free163cuc/free163cuc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
